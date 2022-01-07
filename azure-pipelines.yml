@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  Name: az400m05l05a-pool
 
 steps:
 - task: NodeTool@0
